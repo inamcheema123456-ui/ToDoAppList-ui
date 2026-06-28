@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f9;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+li{
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px 
+    rgba(0,0,0,0.05);
+
+    padding: 12px;
+    background: #f9f9f9;
+}
+
+li span{
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+}
+.EditBtn{
+    background-color: #ffc107;
+    color : black;
+    font-size: 12px;
+    padding: 6px 10pX;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4pX;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    background-color: #dc3545;
+    color: white;
+    font-size: 12pX;
+    padding: 6pX 10pX;
+    border: none;
+    border-radius: 4pX;
+    cursor: pointer;
+}
